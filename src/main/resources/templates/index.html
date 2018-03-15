@@ -1,8 +1,11 @@
-<html>
+<!DOCTYPE html>
+	<html xmlns:th="http://www.thymeleaf.org">
 	<head>
-		<title>Index</title>
+ 		<title>Index</title>
 	</head>
 	<body>
-		<h2>Welcome To Tutorial 5 APAP</h2>
+ 		<div th:replace="fragments/fragment :: header"></div>
+ 			<h2>Welcome To Tutorial 05 APAP</h2>
+ 		<div th:replace="fragments/fragment :: footer"></div>
 	</body>
 </html>

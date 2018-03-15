@@ -21,8 +21,9 @@ public class StudentController
 
 
     @RequestMapping("/")
-    public String index ()
+    public String index (Model model)
     {
+    	model.addAttribute("title","Welcome Page");
         return "index";
     }
 
